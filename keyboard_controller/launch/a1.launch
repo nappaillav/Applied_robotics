@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="keyboard_controller" type="keyboard_controller" name="keyboard_controller_node" output="screen">
+  </node>
+</launch>
+

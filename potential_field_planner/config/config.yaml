@@ -1,0 +1,12 @@
+# topics to read
+max_linear_velocity: /husky_velocity_controller/linear/x/max_velocity
+max_angular_velocity: /husky_velocity_controller/angular/z/max_velocity
+    
+# parameters for potential fields
+planner:
+  k_att: 3
+
+target:
+  x: -5
+  y: 0
+

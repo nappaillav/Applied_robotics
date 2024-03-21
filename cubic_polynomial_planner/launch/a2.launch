@@ -1,0 +1,5 @@
+<launch>
+  <!-- Start the pose_planner node -->
+  <node name="pose_planner" pkg="cubic_polynomial_planner" type="cubic_polynomial_planner" output="screen">
+  </node>
+</launch>

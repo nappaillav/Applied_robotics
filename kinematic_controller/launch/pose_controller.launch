@@ -1,0 +1,5 @@
+<launch>
+  <!-- Start the planner node -->
+  <node name="task_controller" pkg="kinematic_controller" type="inverse_kinematic_controller" output="screen">
+  </node>
+</launch>

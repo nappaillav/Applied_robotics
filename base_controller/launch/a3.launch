@@ -1,0 +1,9 @@
+<launch>
+  <!-- Start the controller node -->
+  <node name="controller" pkg="base_controller" type="base_controller" output="screen">
+  </node>
+  <!-- Start the planner node -->
+  <node name="planner" pkg="potential_field_planner" type="potential_field_planner" output="screen">
+  <!-- <rosparam command="load" file="$(find potential_field_planner)/config/config.yaml" /> -->
+  </node>
+</launch>

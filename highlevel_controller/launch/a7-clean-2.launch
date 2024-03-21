@@ -1,0 +1,11 @@
+<launch>
+	<rosparam command="load" file ="$(find highlevel_controller)/config/a7.yaml" />
+	<rosparam command="load" file ="$(find highlevel_controller)/config/a7-clean-2.yaml" />
+	
+	<include file="$(find cubic_polynomial_planner)/launch/pose_action_server.launch" />
+    <node name="task_controller"  pkg="highlevel_controller" type="inverse_controllerA7" output="screen">
+	</node>
+    <node name="action_client"  pkg="highlevel_controller" type="kinematic_client" output="screen">
+	</node>				
+	
+</launch>

@@ -1,0 +1,12 @@
+custom:
+  k_att: 500
+  stiffness: 200
+  damping: 20
+
+
+custom_IK:
+  k_att: 500
+  stiffness: 250
+  damping: 30
+  k_0: 200
+  d_0: 20

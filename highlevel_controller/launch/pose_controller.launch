@@ -1,0 +1,6 @@
+<launch>
+  <!-- Start the planner node -->
+  <node name="task_controller" pkg="highlevel_controller" type="inverse_highlevel_controller" output="screen">
+  </node>
+  <rosparam command="load" file="$(find highlevel_controller)/config/a6.yaml"/>
+</launch>

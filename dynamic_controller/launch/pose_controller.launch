@@ -1,0 +1,6 @@
+<launch>
+  <!-- Start the planner node -->
+  <node name="task_controller" pkg="dynamic_controller" type="inverse_dynamic_controller" output="screen">
+  </node>
+  <rosparam command="load" file="$(find dynamic_controller)/config/config.yaml"/>
+</launch>

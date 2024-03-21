@@ -1,0 +1,7 @@
+<launch>
+  <!-- Start the planner node -->
+  <node name="joint_controller" pkg="dynamic_controller" type="joint_dynamic_controller" output="screen">
+  </node>
+  <rosparam command="load" file="$(find dynamic_controller)/config/config.yaml" />
+</launch>
+  
