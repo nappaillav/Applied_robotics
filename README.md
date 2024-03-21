@@ -21,3 +21,5 @@
 ## Assignment 6: Orientation Control for a Robot Manipulator
 
 ## Assignment 7: Clean the Table
+
+![](video\Clean_the_table-ezgif.com-speed.gif)
