@@ -22,4 +22,4 @@
 
 ## Assignment 7: Clean the Table
 
-![](video\Clean_the_table-ezgif.com-speed.gif)
+![](video/Clean_the_table-ezgif.com-speed.gif)
